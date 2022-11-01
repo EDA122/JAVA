@@ -1,0 +1,26 @@
+package assignment1;
+
+public class circle {
+     double radius;
+     double getArea() {
+          return Math.PI *radius *radius;
+          
+}
+    double getPerimeter() {
+         return 2*Math.PI* radius;
+} 
+
+}
+     
+     
+     
+public class CircleTest { 
+       public static void main (String[] args) {
+             circle circle = new circle();
+             circle.radius = 2;
+             System.out.println("area:" + circle.getArea());
+             System.out.println("perimeter:" + circle.getPerimeter());
+          }
+}
+          
+    
